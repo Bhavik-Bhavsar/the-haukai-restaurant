@@ -1,0 +1,90 @@
+ /* Universal box sizing */
+ * {   
+    box-sizing: border-box;
+    }
+	
+    /* Style the header */
+    .header {   
+    background-color:#49be25;   
+    text-align: center;   
+    padding: 8px;
+	font-style: "Amatic SC", sans-serif;
+    }
+     
+    /* Style the top navigation bar */
+    .topnav {   
+        overflow: auto;   
+        background-color: #145369;
+        }
+     
+    /* Style the topnav links */
+    .topnav a {
+        float:left;   
+        display: block;
+        color:white;   
+        text-align: center;   
+        padding: 18px 20px;   
+        text-decoration: none;
+        font-size: 17px;
+    }
+     
+    /* Change color on hover */
+    .topnav a:hover {   
+    background-color: white;
+        color:black;
+    }
+	
+	
+	.bgimg {
+  /* The image used */
+	background: url("images/homepage.jpg");
+	height: 100%;
+
+  /* Center and scale the image nicely */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	}
+     
+    /* Create two equal columns that float next to
+    each other */
+    .column {
+        float:left;
+        width:33.33%;   
+        padding: 5px;  
+		background-color: #145369;
+    }
+	
+     
+    /* Clear floats after the columns */
+    .row:after {
+       content: "";   
+        display: table;
+        clear:both;
+    }
+     
+    .footer {   
+    background-color: #145369;   
+    text-align: center;   
+    padding: 10px;
+	color: white;
+    }
+	
+	/* font color for reservation page to pop out */
+	.p {
+		-webkit-text-stroke: 0.5px black;
+		color: yellow;
+		font-weight: 20px;
+		font-size: 20px;
+	}
+	
+	/* font color for contact us page to pop out */
+	.p1 {
+		color: white;
+		font-weight: 20px;
+		font-size: 20px;
+		background-color: #145369;
+	}
+	
+	
+	
